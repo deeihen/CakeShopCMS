@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-[#5C3D2E] text-white py-14 mt-auto">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
         <div>
-          <h3 className="font-playfair text-2xl font-bold mb-3">🎂 CakeShop</h3>
+          <h3 className="font-playfair text-2xl font-bold mb-3">CS3A CakeShop</h3>
           <p className="text-white/60 text-sm leading-relaxed">
             Handcrafted cakes made with love for every special occasion.
           </p>
