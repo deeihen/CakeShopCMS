@@ -17,7 +17,7 @@ export default function ProductCard({ product }: { product: Product }) {
             <Image src={imageUrl} alt={product.name} fill
               className="object-cover group-hover:scale-105 transition-transform duration-300" />
           ) : (
-            <div className="w-full h-full flex items-center justify-center text-5xl">🎂</div>
+            <div className="w-full h-full bg-gradient-to-br from-[#F9D8E1] to-[#FCE9EF]" />
           )}
           {product.featured && (
             <span className="absolute top-3 left-3 bg-[#F4A7B9] text-white text-xs px-3 py-1 rounded-full font-medium">

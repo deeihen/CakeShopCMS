@@ -37,7 +37,7 @@ export default async function CakePage({ params }: { params: Promise<{ slug: str
                 <Image src={urlFor(imgs[0] as any).width(700).height(700).url()}
                   alt={product.name} fill className="object-cover" priority />
               ) : (
-                <div className="w-full h-full bg-[#FFF0F5] flex items-center justify-center text-8xl">🎂</div>
+                <div className="w-full h-full bg-gradient-to-br from-[#F9D8E1] to-[#FCE9EF]" />
               )}
             </div>
             {imgs.length > 1 && (
