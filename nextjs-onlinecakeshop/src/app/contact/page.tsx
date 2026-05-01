@@ -43,11 +43,6 @@ export default async function ContactPage() {
         <div className="absolute bottom-12 left-[8%] w-16 h-16 rounded-full border-2 border-dashed border-[#F4A7B9]/30" />
 
         <div className="relative z-10 text-center max-w-3xl mx-auto px-6">
-          {/* Pill badge */}
-          <div className="inline-flex items-center gap-2 bg-white border border-[#F4A7B9] text-[#C2185B] text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full shadow-sm mb-6">
-            <span className="w-2 h-2 rounded-full bg-[#F4A7B9] inline-block" />
-            We'd Love to Hear From You
-          </div>
 
           <h1 className="font-playfair text-6xl md:text-7xl font-bold text-[#5C3D2E] leading-[1.1] mb-5">
             Let's Create<br />

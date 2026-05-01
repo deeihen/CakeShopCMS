@@ -23,10 +23,6 @@ export default async function AboutPage() {
         <div className="absolute bottom-8 left-[5%] w-14 h-14 rounded-full border-2 border-dashed border-[#F4A7B9]/30" />
 
         <div className="relative z-10 text-center max-w-3xl mx-auto px-6">
-          <div className="inline-flex items-center gap-2 bg-white border border-[#F4A7B9] text-[#C2185B] text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full shadow-sm mb-6">
-            <span className="w-2 h-2 rounded-full bg-[#F4A7B9] inline-block" />
-            Our Story
-          </div>
           <h1 className="font-playfair text-6xl md:text-7xl font-bold text-[#5C3D2E] leading-[1.1] mb-5">
             About <span className="text-[#F4A7B9]">Us</span>
           </h1>
@@ -41,7 +37,7 @@ export default async function AboutPage() {
         <div className="max-w-5xl mx-auto px-6 py-8 grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
             { value: '500+', label: 'Cakes Delivered' },
-            { value: '4.9★', label: 'Average Rating' },
+            { value: '4.9', label: 'Average Rating' },
             { value: '100%', label: 'Fresh Baked' },
             { value: '3+ yrs', label: 'Baking Since' },
           ].map(s => (

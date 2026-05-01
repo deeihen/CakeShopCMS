@@ -59,11 +59,6 @@ export default async function HomePage() {
 
         <div className="max-w-6xl mx-auto px-6 py-20 w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
           <div>
-            {/* Pill badge */}
-            <div className="inline-flex items-center gap-2 bg-white border border-[#F4A7B9] text-[#C2185B] text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full shadow-sm mb-6">
-              <span className="w-2 h-2 rounded-full bg-[#F4A7B9] inline-block" />
-              Handcrafted with Love
-            </div>
 
             <h1 className="font-playfair text-5xl md:text-[64px] font-bold text-[#5C3D2E] leading-[1.1] mb-6">
               {settings?.heroTitle || (
@@ -98,7 +93,7 @@ export default async function HomePage() {
             <div className="flex gap-8 mt-12 pt-8 border-t border-[#F4A7B9]/40">
               {[
                 { value: '500+', label: 'Cakes Delivered' },
-                { value: '4.9★', label: 'Average Rating' },
+                { value: '4.9', label: 'Average Rating' },
                 { value: '100%', label: 'Fresh Baked' },
               ].map(stat => (
                 <div key={stat.label}>
@@ -142,7 +137,7 @@ export default async function HomePage() {
         <div className="marquee-track">
           {[...marqueeItems, ...marqueeItems, ...marqueeItems, ...marqueeItems].map((item, i) => (
             <span key={i} className="text-white font-semibold text-sm flex-shrink-0">
-              {item} <span className="opacity-50 ml-6">✦</span>
+              {item} <span className="opacity-50 ml-6"></span>
             </span>
           ))}
         </div>
