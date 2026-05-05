@@ -124,7 +124,7 @@ export default async function HomePage() {
               {/* Floating badge */}
               <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-2xl px-4 py-3 shadow-lg">
                 <p className="text-xs text-[#8D6E63] font-medium">Starting at</p>
-                <p className="font-playfair text-xl font-bold text-[#5C3D2E]">₱ 299</p>
+                <p className="font-playfair text-xl font-bold text-[#5C3D2E]">₱ 119</p>
               </div>
             </div>
             <div className="absolute -top-4 -right-4 w-16 h-16 rounded-full border-4 border-dashed border-[#F4A7B9]/50" />
@@ -269,38 +269,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="relative py-28 bg-[#5C3D2E] overflow-hidden">
-        <div className="absolute top-[-60px] right-[-60px] w-72 h-72 rounded-full bg-[#F4A7B9]/15" />
-        <div className="absolute bottom-[-40px] left-[-40px] w-56 h-56 rounded-full bg-[#F4A7B9]/10" />
-
-        <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
-          <span className="inline-block bg-[#F4A7B9]/20 text-[#F9D8E1] text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full mb-6">
-            Special Orders
-          </span>
-          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-white mb-5 leading-tight">
-            Dream Cake,<br />
-            <span className="text-[#F4A7B9]">Made Reality</span>
-          </h2>
-          <p className="text-white/70 text-lg mb-10 max-w-2xl mx-auto">
-            Have a special occasion? We create custom cakes tailored just for you — from concept to celebration.
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <Link
-              href="/contact"
-              className="bg-[#F4A7B9] text-white px-10 py-4 rounded-full font-semibold hover:bg-[#e8829a] transition-all shadow-lg hover:-translate-y-0.5"
-            >
-              Get a Custom Quote
-            </Link>
-            <Link
-              href="/cakes"
-              className="border-2 border-white/30 text-white px-10 py-4 rounded-full font-semibold hover:bg-white/10 transition-all hover:-translate-y-0.5"
-            >
-              Browse Menu
-            </Link>
-          </div>
-        </div>
-      </section>
+      
     </>
   )
 }

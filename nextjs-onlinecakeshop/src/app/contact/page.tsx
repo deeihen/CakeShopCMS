@@ -321,7 +321,7 @@ export default async function ContactPage() {
             {[
               { step: '01', title: 'Send Your Inquiry', desc: 'Fill out the form or message us directly with your idea.', bg: 'bg-[#FFF0F5]', accent: 'text-[#F4A7B9]', badge: 'bg-[#F9D8E1] text-[#E395AB]' },
               { step: '02', title: 'We Plan Together', desc: 'We discuss flavors, design, size, and budget to bring your vision to life.', bg: 'bg-[#FFF8F0]', accent: 'text-[#E8A87C]', badge: 'bg-[#F8E8D8] text-[#D79A72]' },
-              { step: '03', title: 'We Bake with Love', desc: 'Your cake is handcrafted fresh using only the finest local ingredients.', bg: 'bg-[#F0F8FF]', accent: 'text-[#7BAFD4]', badge: 'bg-[#DDEAF8] text-[#6B9BC3]' },
+              { step: '03', title: 'We Bake', desc: 'Your cake is handcrafted fresh using only the finest local ingredients.', bg: 'bg-[#F0F8FF]', accent: 'text-[#7BAFD4]', badge: 'bg-[#DDEAF8] text-[#6B9BC3]' },
               { step: '04', title: 'Delivered to You', desc: 'Your celebration-ready cake arrives on time, perfectly packaged.', bg: 'bg-[#F0FFF4]', accent: 'text-[#5BAD72]', badge: 'bg-[#D8F8E1] text-[#4E9862]' },
             ].map((item, i, arr) => (
               <div key={item.step} className="relative">
