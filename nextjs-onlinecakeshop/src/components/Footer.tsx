@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-[#5C3D2E] text-white py-14 mt-auto">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
         <div>
-          <h3 className="font-playfair text-2xl font-bold mb-3">🎂 CakeShop</h3>
+          <h3 className="font-playfair text-2xl font-bold mb-3">The Glaze Gallery</h3>
           <p className="text-white/60 text-sm leading-relaxed">
             Handcrafted cakes made with love for every special occasion.
           </p>
@@ -23,11 +23,11 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-white/10 pt-7 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/30">
-            &copy; {new Date().getFullYear()} CS3A CakeShop. All rights reserved.
+            &copy; {new Date().getFullYear()} The Glaze Gallery. All rights reserved.
           </p>
           <div className="flex items-center gap-1.5">
             <span className="w-1.5 h-1.5 rounded-full bg-[#F4A7B9]/60 inline-block" />
-            <span className="text-xs text-white/30">Made with love in Quezon City</span>
+            <span className="text-xs text-white/30">Made in Quezon City</span>
           </div>
         </div>
       </div>

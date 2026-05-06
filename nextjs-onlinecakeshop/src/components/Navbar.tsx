@@ -24,7 +24,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="font-playfair text-2xl font-bold text-[#5C3D2E]">
-          CS3A CakeShop
+          The Glaze Gallery
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
